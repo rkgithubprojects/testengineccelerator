@@ -19,7 +19,7 @@ public class execute {
 		try
 		{
 			System.out.println("Execute"+System.getProperty("user.dir"));
-			String[] sheetNames={"Demo"};
+			String[] sheetNames={"DemoTestCase"};
 						
 			ReadExcel readExcel=new ReadExcel();
 			Set<List<String>> excelData=readExcel.readExcelData(sheetNames[0]);
